@@ -7,7 +7,9 @@ class Myfood extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('นธีพัฒน์ 1147'),
+        title: const Text('นธีพัฒน์ 1147',style: TextStyle(
+          color: Colors.white
+        ),),
         backgroundColor: const Color.fromARGB(255, 236, 19, 19),
       ),
       body: Center(
